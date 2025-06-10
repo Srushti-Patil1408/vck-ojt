@@ -63,7 +63,7 @@ const AdmissionsPage = () => {
 
                 </ol>
 
-                <p className="p">For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <a href="https://vck.codewonders.in/courses">Courses Page</a> or <a href="https://vck.codewonders.in/contact" >Contact us</a> directly. </p>
+                <p className="p">For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <a href="" data-discover="true">Courses Page</a> or <a href="" data-discover="true" >Contact us</a> directly. </p>
 
                 
 
