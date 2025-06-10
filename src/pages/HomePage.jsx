@@ -11,7 +11,7 @@ const HomePage = () => {
             <Header/>
             </nav>
             <div className="hero-section">
-                <img className="v" src="/vck1.jpg"></img>
+                <img className="v" src="vck1.jpg"></img>
                 <div className="hero-overlay-text">
                     <h1 className="h1">Welcome to Vivekanand College!</h1>
 
