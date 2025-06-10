@@ -1,0 +1,199 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: blue;
+  
+  background-color: whitesmoke;
+  border: rgb(16, 145, 59);
+  box-shadow: #4bb463;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.p {
+  color: black;
+  text-align: left;
+}
+
+.q {
+  color: black;
+  text-align: left;
+}
+
+.r {
+  text-align:left;
+}
+
+.main {
+  color: blue;
+  text-align: center;
+}
+
+#button {
+  text-align: center;
+  background-color: green;
+  color: white;
+}
+
+.ul {
+  color: black;
+  text-align: left;
+}
+
+.h {
+  color: black;
+}
+
+#demo {
+  height:500px;
+  width: 1000px;
+  
+}
+
+.th {
+  color: black;
+  background-color: #888;
+}
+
+.tb {
+  color: black;
+  background-color: azure;
+}
+
+.h5 {
+  color:gray;
+  background-color: aliceblue;
+  text-align: center;
+}
+
+.t {
+  width: 600px;
+  height: 200px;
+}
+
+
+.h1 {
+  color: white;
+  text-align: center;
+}
+
+#b1 {
+  background-color: #4bb463;
+  color:blue;
+}
+
+
+
+#vck {
+  height: 300px;
+  width: 500x;
+}
+
+#vck1 {
+  height: 300px;
+  width: 500px;
+}
+
+.b2 {
+  background-color: #28a745;
+  color: blue;
+  font-size: 16px;
+  border: 0cm;
+  margin: 1px 1px;
+  display: inline-block;
+  
+}
+
+
+.v {
+  height: 300px;
+  width: 1300px;
+  filter: opacity(0.9);
+  
+}
+.nav {
+  background-color:white;
+  color: black;
+  gap: 50px;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 2px 8px #1817171a;
+  
+  
+}
+
+.nav1 {
+  font-size: 1.5rem;
+  text-align: left;
+  color: blue;
+
+}
+
+.hero-section {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+
+.hero-overlay-text {
+  position: absolute;
+  top: 20%;
+  left: 19%;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 4px #000;
+  z-index: auto;
+}
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  width: 100vh;
+  height: 100vh;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #52d2d2;
+
+}
