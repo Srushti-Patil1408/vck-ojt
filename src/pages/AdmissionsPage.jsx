@@ -1,6 +1,7 @@
 import React from "react";
 import '../App.css'
 import Header from "../components/Header/Header";
+import { Link } from "react-router-dom";
 
 
 
@@ -63,7 +64,7 @@ const AdmissionsPage = () => {
 
                 </ol>
 
-                <p className="p">For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <a href="" data-discover="true">Courses Page</a> or <a href="" data-discover="true" >Contact us</a> directly. </p>
+                <p className="p">For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <Link to="/coursespage" >Courses Page</Link> or <Link to="/contactpage">Contact us</Link> directly. </p>
 
                 
 
