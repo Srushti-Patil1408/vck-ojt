@@ -3,7 +3,7 @@ import '../App.css'
 import Header from "../components/Header/Header";
 
 
-const Home = () => {
+const HomePage = () => {
     return (
         <div>
             <nav className="nav">
@@ -53,4 +53,4 @@ const Home = () => {
 }
 
 
-export default Home
+export default HomePage

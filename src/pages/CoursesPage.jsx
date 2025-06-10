@@ -3,7 +3,7 @@ import '../App.css'
 import Header from "../components/Header/Header";
 
 
-const Courses = () => {
+const CoursesPage = () => {
     return (
         <div>
             <Header/>
@@ -118,4 +118,4 @@ const Courses = () => {
     )
 }
 
-export default Courses
+export default CoursesPage

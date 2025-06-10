@@ -7,7 +7,7 @@ import Header from "../components/Header/Header";
 
 
 
-const About = () => {
+const AboutPage = () => {
     return (
         <div id="root">
             <Header/>
@@ -38,4 +38,4 @@ const About = () => {
     )
 }
 
-export default About
+export default AboutPage

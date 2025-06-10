@@ -1,11 +1,13 @@
 import React from "react"
 import {  BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import Home from "./pages/HomePage"
-import About from "./pages/Aboutpage"
-import Contact from "./pages/ContactPage"
-import Courses from "./pages/CoursesPage"
-import Admissions from "./pages/AdmissionsPage"
+
 import './App.css'
+
+import HomePage from "./pages/HomePage"
+import AboutPage from "./pages/AboutPage"
+import CoursesPage from "./pages/CoursesPage"
+import ContactPage from "./pages/ContactPage"
+import AdmissionsPage from "./pages/AdmissionsPage"
 
 
 
@@ -16,11 +18,11 @@ const App = () => {
     <div>
       <Router>
         <Routes>
-          <Route path="/home" element={<Home/>}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/courses" element={<Courses/>}/>
-          <Route path="/contact" element={<Contact/>}/>
-          <Route path="/admissions" element={<Admissions/>}/>
+          <Route path="/home" element={<HomePage/>}/>
+          <Route path="/about" element={<AboutPage/>}/>
+          <Route path="/courses" element={<CoursesPage/>}/>
+          <Route path="/contact" element={<ContactPage/>}/>
+          <Route path="/admissions" element={<AdmissionsPage/>}/>
         </Routes>
       </Router>
     </div>

@@ -4,7 +4,7 @@ import Header from "../components/Header/Header";
 
 
 
-const Contact = () => {
+const ContactPage = () => {
     return (
         <div id="root">
             <Header/>
@@ -48,6 +48,6 @@ const Contact = () => {
 }
 
 
-export default Contact
+export default ContactPage
 
     

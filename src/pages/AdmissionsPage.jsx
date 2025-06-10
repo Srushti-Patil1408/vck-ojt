@@ -4,7 +4,7 @@ import Header from "../components/Header/Header";
 
 
 
-const Admissions = () => {
+const AdmissionsPage = () => {
     return (
         <div>
             <Header/>
@@ -73,4 +73,4 @@ const Admissions = () => {
     )
 }
 
-export default Admissions
+export default AdmissionsPage
