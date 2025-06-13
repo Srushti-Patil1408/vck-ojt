@@ -17,7 +17,7 @@ const Header = () => {
         
         
         <nav className="navbar">
-            <div className="nav1"><b>Vivekanand College</b></div>
+            
             <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>&#9776;</div>
             <div className={` nav-links ${menuOpen ? 'active' : ''}`}>
             

@@ -5,7 +5,9 @@ import Header from "../components/Header/Header";
 
 const HomePage = () => {
     return (
+        
     <div id="bg">
+        <div className="nav1"><b>Vivekanand College</b></div>
       
         <div className="page-container">
             
