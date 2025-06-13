@@ -9,7 +9,13 @@ import Header from "../components/Header/Header";
 
 const AboutPage = () => {
     return (
-        <div id="root">
+        
+        
+
+        
+        <div id="bg">
+            <div className="page-container">
+
             <Header/>
 
             <h1 className="main">About Vivekanand College</h1>
@@ -33,8 +39,9 @@ const AboutPage = () => {
             <h2 className="q">Our History</h2>
                 <p className="p">[Briefly describe the college's history - e.g., how it started, key milestones, growth over the years, famous alumni if any]. Our journey began with a vision to make quality education available to all, and we continue that legacy today.</p>
 
-
+            </div>
         </div>
+        
     )
 }
 

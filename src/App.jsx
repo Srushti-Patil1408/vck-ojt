@@ -8,6 +8,7 @@ import AboutPage from "./pages/AboutPage"
 import CoursesPage from "./pages/CoursesPage"
 import ContactPage from "./pages/ContactPage"
 import AdmissionsPage from "./pages/AdmissionsPage"
+import ChatbotComponent from "./components/Chatbot/ChatbotComponents"
 
 
 
@@ -24,7 +25,11 @@ const App = () => {
           <Route path="/contact" element={<ContactPage/>}/>
           <Route path="/admissions" element={<AdmissionsPage/>}/>
         </Routes>
+        <div>
+          <ChatbotComponent/>
+        </div>
       </Router>
+      
     </div>
   )
 }

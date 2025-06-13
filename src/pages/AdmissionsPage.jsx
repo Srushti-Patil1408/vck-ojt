@@ -7,7 +7,8 @@ import { Link } from "react-router-dom";
 
 const AdmissionsPage = () => {
     return (
-        <div>
+        <div id="bg">
+        <div className="page-container">
             <Header/>
             <h1 className="main">Admissions at Vivekanand College</h1>
 
@@ -64,12 +65,15 @@ const AdmissionsPage = () => {
 
                 </ol>
 
-                <p className="p">For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our <Link to="/coursespage" data-discover="true" >Courses Page</Link> or <Link to="/contactpage" data-discover="true">Contact us</Link> directly. </p>
+                <p className="p">For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our{" "}
+                     <Link to="/courses" >Courses Page</Link> or{" "} 
+                     <Link to="/contact">Contact us</Link> directly. 
+                     </p>
 
                 
 
 
-
+        </div>
         </div>
     )
 }

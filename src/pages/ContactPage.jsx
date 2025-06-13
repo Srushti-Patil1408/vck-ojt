@@ -6,7 +6,13 @@ import Header from "../components/Header/Header";
 
 const ContactPage = () => {
     return (
-        <div id="root">
+
+
+
+    
+        
+        <div id="bg">
+            <div className="page-container">
             <Header/>
             <h1 className="main">Contact Us</h1>
 
@@ -41,8 +47,10 @@ const ContactPage = () => {
 
 
 
-                
+             </div>   
         </div>
+        
+        
         
     )
 }

@@ -5,10 +5,15 @@ import Header from "../components/Header/Header";
 
 const HomePage = () => {
     return (
-        <div>
+    <div id="bg">
+      
+        <div className="page-container">
+            
             <nav className="nav">
-
+        
             <Header/>
+            
+            
             </nav>
             <div className="hero-section">
                 <img className="v" src="vck1.jpg"></img>
@@ -47,8 +52,10 @@ const HomePage = () => {
             <a href="https://vck.codewonders.in/courses"></a>
 
 
-
+        
         </div>
+
+    </div>
     )
 }
 

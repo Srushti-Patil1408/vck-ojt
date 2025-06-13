@@ -5,7 +5,8 @@ import Header from "../components/Header/Header";
 
 const CoursesPage = () => {
     return (
-        <div>
+        <div id="bg">
+            <div className="page-container">
             <Header/>
             <h1 className="main">Our Academic Programs</h1>
             
@@ -112,7 +113,7 @@ const CoursesPage = () => {
 
 
 
-
+            </div>
 
         </div>
     )
